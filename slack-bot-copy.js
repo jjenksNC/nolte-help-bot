@@ -31,7 +31,7 @@ if (process.env.clientId && process.env.clientSecret) {
   controller.configureSlackApp({
     clientId: process.env.clientId,
     clientSecret: process.env.clientSecret,
-    redirect_uri: 'https://slack-bot-copy.herokuapp.com/oauth',
+    redirect_uri: 'https://nolte-bot-copy.herokuapp.com/oauth',
     scopes: ['bot']
   });
 
